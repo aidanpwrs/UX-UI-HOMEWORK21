@@ -34,10 +34,12 @@ color: white;
 .main-content {
 text-align: center;
 margin-top: 3rem;
+margin-bottom: 3rem;
 }
 
 .paragraph {
   margin-top: 1.5rem;
+  margin-bottom: 7rem;
 }
 
 .card-layout {
@@ -45,5 +47,29 @@ margin-top: 3rem;
 }
 
 .card-img-top {
-  max-height: 9.6rem;
+  max-height: 10rem;
+}
+
+.test {
+  background-color: #0c4c50;
+}
+
+.card-margin {
+  margin: 2rem;
+  
+}
+
+.col-lg {
+  display: flex;
+  flex: .5 0 0%;
+  
+  justify-content: space-evenly;  
+}
+
+p {
+  margin-bottom: 5rem;
+}
+
+img {
+  min-height: 15rem;
 }
